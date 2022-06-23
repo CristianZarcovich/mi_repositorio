@@ -92,6 +92,7 @@ a, p, h1, h2, h3 {
 }
 
 #hero {
+    width: 100%;
     height: 60rem;
     overflow: hidden;
     outline: .3rem rgba(000, 000, 000, .8) solid;
@@ -287,13 +288,81 @@ a, p, h1, h2, h3 {
 }
 
 .heroTienda {
-    margin: 3rem;
-    width: 60%;
+    padding: 1rem 1rem 3rem 1rem;
+    width: 100%;
 }
 
 .heroTienda__img {
     max-width: 100%;
     max-height: 100%;
+}
+
+.tiendaCafe {
+    width: 100%;
+}
+
+.tiendaCafe__title {
+    text-align: center;
+    padding: 2rem 15rem;
+    font-size: 1.5rem;
+    margin: 5rem;
+}
+
+.tiendaCafe__img--conteiner {
+    display: flex;
+    justify-content: space-evenly;
+    flex-wrap: wrap;
+}
+
+.tiendaCafe__img--conteiner figure {
+    padding: 2rem 10rem;
+    margin: 0 3rem;
+    font-size: 1.5rem;
+    text-align: center;
+    font-weight: 600;
+}
+
+.tiendaCafe__img--conteiner img {
+    width: 20rem;
+}
+
+.tiendaCafe__img--conteiner {
+    margin-top: 1.5rem;
+    line-height: 3rem;
+}
+
+.tiendaCapsulas {
+    width: 100%;
+}
+
+.tiendaCapsulas__title {
+    text-align: center;
+    padding: 2rem 15rem;
+    font-size: 1.5rem;
+    margin: 5rem;
+}
+
+.tiendaCapsulas__img--conteiner {
+    display: flex;
+    justify-content: space-evenly;
+    flex-wrap: wrap;
+}
+
+.tiendaCapsulas__img--conteiner figure {
+    padding: 2rem 10rem;
+    margin: 0 3rem;
+    font-size: 1.5rem;
+    text-align: center;
+    font-weight: 600;
+}
+
+.tiendaCapsulas__img--conteiner img {
+    width: 20rem;
+}
+
+.tiendaCapsulas__img--conteiner figcaption {
+    margin-top: 1.5rem;
+    line-height: 3rem;
 }
 
 /* ---------------- ENDS TIENDA ---------------- */
@@ -390,7 +459,5 @@ a, p, h1, h2, h3 {
     }
 
 /* ---------------- TIENDA DESKTOP ---------------- */
-
-
 
 }
