@@ -21,6 +21,27 @@
 
 /* ends grid */
 
+a {
+    display: inline-block;
+    position: relative;
+    color: #333;
+    text-decoration: none;
+}
+
+a:after {
+    content: "";
+    display: block;
+    margin: auto;
+    height: 2px;
+    width: 0px;
+    transition: all .8s;
+}
+
+a:hover:after {
+    width: 100%;
+    background: #333;
+}
+
 ul, ol {
     list-style: none;
 }
