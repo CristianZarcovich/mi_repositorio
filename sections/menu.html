@@ -8,6 +8,7 @@
     <link rel="preconnect" href="https://fonts.googleapis.com">
     <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
     <link rel="stylesheet" href="https://fonts.googleapis.com/css2?family=Roboto+Serif:opsz,wght@8..144,300;8..144,400;8..144,600&display=swap">
+    <link rel="stylesheet" href="../css/animate.css">
     <link rel="stylesheet" href="../css/style.css">
     <title>Menú - Café</title>
 </head>
@@ -29,10 +30,10 @@
     <!-- ends header -->
     <main id="main">
         <article class="drinks menu">
-            <div class="drinks__img--conteiner">    
+            <div class="drinks__img--conteiner wow fadeInRight">  
                 <img class="drinks__img" src="../img/drinks.jpg" alt="cafe siendo servido">
             </div>
-            <table class="drinks__table bg-light">
+            <table class="drinks__table bg-light wow fadeInLeft">
                 <tr>
                     <th>Bebida</th>
                     <th>Precio</th>
@@ -94,10 +95,10 @@
             </table>
         </article>
         <article class="food menu">
-            <div class="food__img--conteiner">    
+            <div class="food__img--conteiner wow fadeInLeft">    
                 <img class="food__img" src="../img/food.jpg" alt="cafe siendo servido">
             </div>
-            <table class="food__table bg-light">
+            <table class="food__table bg-light  wow fadeInRight">
                 <tr>
                     <th>Comida</th>
                     <th>Precio</th>
@@ -170,5 +171,9 @@
             <a href="http://instagram.com" target="_blank"><img src="../img/instagram-icon.png" alt="instagram"></a>
         </div>
     </footer>
+    <script src="../js/wow.min.js"></script>
+    <script>
+        new WOW().init();
+    </script>
 </body>
 </html>
